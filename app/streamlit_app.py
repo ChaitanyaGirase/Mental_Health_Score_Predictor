@@ -8,7 +8,7 @@ st.set_page_config(
     layout="centered"
 )
 
-model = joblib.load("notebook/mental_health_RandomForest.pkl")
+model = joblib.load("model/mental_health_RandomForest.pkl")
 
 st.title("Mental Health Score Predictor")
 
